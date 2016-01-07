@@ -3,14 +3,23 @@
 
 ## 1 - Project Introduction
 
+提前预览一下本project完成时的功能和样子.
+
 ## 2 - Package
+
+解释如何添加和使用包,同时也把项目里面需要使用的package提前都加进去了.
 
 ## 3 - Project Structure
 
+单项目创建的目录结构.
+
 ## 4 - Basic Layout
+
+MainLayout和HomeLayout编写
 
 ## 5 - Basic Routing with Layout in Meteor
 
+'/'路径的路由显示
 
 ## 6 - Defining A Schema in Meteor
 
