@@ -7,13 +7,16 @@ RecipeSchema = new SimpleSchema({
   },
   desc: {
     type: String,
-    label: 'Desc'
+    label: 'Description'
   },
   author: {
     type: String,
     label: "Author",
     autoValue: function(){
       return this.userId;
+    },
+    autoform: {
+      type: "hidden"
     }
   },
   createdAt: {
@@ -21,6 +24,9 @@ RecipeSchema = new SimpleSchema({
     label: 'Created At',
     autoValue: function(){
       return new Data();
+    },
+    autoform: {
+      type: "hidden"
     }
   }
 });

@@ -12,3 +12,5 @@
 ## 5 - Basic Routing with Layout in Meteor
 
 ## 6 - Defining A Schema in Meteor
+
+## 7 - Easy Forms with AutoForm in Meteor
