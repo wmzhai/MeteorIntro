@@ -44,3 +44,23 @@ meteortoys:allthings
 ## 10 - Private & Public Settings and Google Analytics
 
 通过settins.json文件添加private和public的setting, 其中private的仅在server可见,public的在client也可见
+
+## 11 - Create Partials and Adding Styles
+
+通过styl格式添加了一些样式,在webstorm里面编辑styl有比较好的用户体验
+
+另外,视频中也展示了一些html输入的技巧,比如
+
+```
+  ul>li*3>a 
+```
+
+按tab以后可以生成如下内容
+
+```html
+  <ul>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+```
