@@ -101,3 +101,5 @@ if( Meteor.isClient ) {
   });
 }
 ```
+
+##18 - Update Methods & Adding To Menu
