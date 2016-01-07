@@ -8,3 +8,5 @@
 ## 3 - Project Structure
 
 ## 4 - Basic Layout
+
+## 5 - Basic Routing with Layout in Meteor
