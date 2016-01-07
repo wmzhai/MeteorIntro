@@ -40,3 +40,7 @@ meteortoys:allthings
 ## 9 - Sub-documents & Array Fields
 
 定义数组形式的子段并通过autoform添加
+
+## 10 - Private & Public Settings and Google Analytics
+
+通过settins.json文件添加private和public的setting, 其中private的仅在server可见,public的在client也可见
