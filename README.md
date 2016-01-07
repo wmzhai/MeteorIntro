@@ -36,3 +36,7 @@ MainLayout和HomeLayout编写
 ```
 meteortoys:allthings
 ```
+
+## 9 - Sub-documents & Array Fields
+
+定义数组形式的子段并通过autoform添加
