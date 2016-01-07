@@ -81,4 +81,23 @@ meteortoys:allthings
 
 ## 16 - User State Redirects in Routing
 
+## 17 - Login & Logout Redirecting
 
+登录登出的重定向,用了下面这个package
+
+```
+gwendall:auth-client-callbacks
+```
+注意, 这些代码仅是client端的,如果没有做判断,会报错
+
+```javascript
+if( Meteor.isClient ) {
+  Accounts.onLogin(function () {
+    FlowRouter.go('recipe-book');
+  });
+
+  Accounts.onLogout(function () {
+    FlowRouter.go('home');
+  });
+}
+```
