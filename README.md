@@ -10,3 +10,5 @@
 ## 4 - Basic Layout
 
 ## 5 - Basic Routing with Layout in Meteor
+
+## 6 - Defining A Schema in Meteor
