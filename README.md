@@ -108,3 +108,7 @@ if( Meteor.isClient ) {
 
 通过style的设置巧妙的解决不同状态下显示不同button的问题
 
+##20 - Each:Else for No Results
+
+通过另外一种方式设置不同状态下不同button的显示问题
+
