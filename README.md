@@ -114,4 +114,7 @@ if( Meteor.isClient ) {
 
 ##21 - Building The Shopping List
 
+autosave是个好功能
+
+
 
