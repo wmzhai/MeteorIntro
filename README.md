@@ -121,3 +121,4 @@ autosave是个好功能
 
 ##23 - Deleting Recipes and Session Helpers
 
+通过session切换编辑和显示状态
