@@ -105,3 +105,6 @@ if( Meteor.isClient ) {
 ##18 - Update Methods & Adding To Menu
 
 ##19 - Filtering Our In Menu Items
+
+通过style的设置巧妙的解决不同状态下显示不同button的问题
+
