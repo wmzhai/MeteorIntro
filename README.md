@@ -127,5 +127,7 @@ autosave是个好功能
 
 通过ReactiveVar在Template级别单独控制每个的显示
 
+##25 - Wrapping Up
 
+New Recipe的处理
 
