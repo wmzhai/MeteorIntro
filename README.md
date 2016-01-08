@@ -118,3 +118,6 @@ if( Meteor.isClient ) {
 ##22 - Updating With A QuickForm
 
 autosave是个好功能
+
+##23 - Deleting Recipes and Session Helpers
+
