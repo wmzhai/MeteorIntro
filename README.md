@@ -121,4 +121,11 @@ autosave是个好功能
 
 ##23 - Deleting Recipes and Session Helpers
 
-通过session切换编辑和显示状态
+通过session切换编辑和显示状态, 不过切换一次,所有都同步显示
+
+##24 - Scoped Reactivity With Reactive Vars
+
+通过ReactiveVar在Template级别单独控制每个的显示
+
+
+
