@@ -1,55 +1,52 @@
 
-# [Intermediate Meteor Introduction](https://www.youtube.com/watch?v=BI8IslJHSag&list=PLLnpHn493BHFYZUSK62aVycgcAouqBt7V)
+## Meteor Introduction
 
-## 1 - Project Introduction
+### 1 - 简介
 
 提前预览一下本project完成时的功能和样子.
 
-## 2 - Package
+### 2 - Package
 
 解释如何添加和使用包,同时也把项目里面需要使用的package提前都加进去了.
 
-## 3 - Project Structure
+### 3 - 目录结构
 
 单项目创建的目录结构.
 
-## 4 - Basic Layout
+### 4 - 布局
 
 MainLayout和HomeLayout编写
 
-## 5 - Basic Routing with Layout in Meteor
+### 5 - 路由
 
 '/'路径的路由显示
 
-## 6 - Defining A Schema in Meteor
+### 6 - 数据Schema
 
 详细讲解Schema的写法
 
-## 7 - Easy Forms with AutoForm in 
+### 7 - 添加数据
 
 通过quickForm添加数据
 
-## 8 - Insert Permissions, Publishing & Meteor Toys
+### 8 - 权限与发布
 
 先使用如下包, 然后在运行的chrome界面里面安CTRL-M就可以在web页面看相关信息了
 
-```
-meteortoys:allthings
-```
 
-## 9 - Sub-documents & Array Fields
+### 9 - 字段和数组
 
 定义数组形式的子段并通过autoform添加
 
-## 10 - Private & Public Settings and Google Analytics
+### 10 - 公有和私有设置
 
 通过settins.json文件添加private和public的setting, 其中private的仅在server可见,public的在client也可见
 
-## 11 - Create Partials and Adding Styles
+### 11 -  样式
 
 通过styl格式添加了一些样式,在webstorm里面编辑styl有比较好的用户体验
 
-另外,视频中也展示了一些html输入的技巧,比如
+另外，展示一些html输入的技巧,比如
 
 ```
   ul>li*3>a 
@@ -65,23 +62,23 @@ meteortoys:allthings
   </ul>
 ```
 
-## 12 - Building Our Recipes List
+### 12 - 建立菜单列表
 
 通过templete添加列表
 
-## 13 - Template Level Subscriptions
+### 13 - 模板订阅
 
 
 
-## 14 - FlowRouter Parameters
+### 14 - 路由参数
 
 
 
-## 15 - Single Item Subscriptions
+### 15 - 单条目订阅
 
-## 16 - User State Redirects in Routing
+### 16 - 重定向
 
-## 17 - Login & Logout Redirecting
+### 17 - 输入输出重定向
 
 登录登出的重定向,用了下面这个package
 
@@ -102,32 +99,32 @@ if( Meteor.isClient ) {
 }
 ```
 
-##18 - Update Methods & Adding To Menu
+### 18 - 更新
 
-##19 - Filtering Our In Menu Items
+### 19 - 过滤
 
 通过style的设置巧妙的解决不同状态下显示不同button的问题
 
-##20 - Each:Else for No Results
+### 20 - 状态显示
 
 通过另外一种方式设置不同状态下不同button的显示问题
 
-##21 - Building The Shopping List
+### 21 - 购物车
 
 
-##22 - Updating With A QuickForm
+### 22 - 表单更新
 
 autosave是个好功能
 
-##23 - Deleting Recipes and Session Helpers
+### 23 - 删除
 
 通过session切换编辑和显示状态, 不过切换一次,所有都同步显示
 
-##24 - Scoped Reactivity With Reactive Vars
+### 24 - ReactiveVars
 
 通过ReactiveVar在Template级别单独控制每个的显示
 
-##25 - Wrapping Up
+### 25 - 总结
 
 New Recipe的处理
 
